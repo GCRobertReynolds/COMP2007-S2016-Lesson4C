@@ -7,8 +7,8 @@ using System.Web.UI.WebControls;
 
 /**
  * @author: Robert Reynolds
- * @author: May 27th, 2016
- * @version: 0.0.1 - added the SetActivePage method
+ * @author: June 2nd, 2016
+ * @version: 0.0.2 - updated SetActivePage Method to include new links
  */
 
 namespace COMP2007_S2016_Lesson4C
@@ -33,6 +33,15 @@ namespace COMP2007_S2016_Lesson4C
             {
                 case "Home Page":
                     home.Attributes.Add("class", "active");
+                    break;
+                case "Students":
+                    students.Attributes.Add("class", "active");
+                    break;
+                case "Courses":
+                    courses.Attributes.Add("class", "active");
+                    break;
+                case "Departments":
+                    departments.Attributes.Add("class", "active");
                     break;
                 case "Contact":
                     contact.Attributes.Add("class", "active");
