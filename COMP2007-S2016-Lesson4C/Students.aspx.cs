@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-//using statements that are required to connect to Entity Framework Database
+//Using statements required to connect to Entity Framework Database
 using COMP2007_S2016_Lesson4C.Models;
 using System.Web.ModelBinding;
 
