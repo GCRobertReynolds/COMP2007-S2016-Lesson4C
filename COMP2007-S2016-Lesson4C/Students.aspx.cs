@@ -102,5 +102,17 @@ namespace COMP2007_S2016_Lesson4C
             //Refresh the grid
             this.GetStudents();
         }
+
+        /**
+         * 
+         */
+        protected void PageSizeDropDownList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //Set the new page size
+            StudentsGridView.PageSize = Convert.ToInt32(PageSizeDropDownList.SelectedValue);
+
+            //Refresh the grid
+            this.GetStudents();
+        }
     }
 }
